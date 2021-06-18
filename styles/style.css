@@ -120,7 +120,12 @@ body {
 }
 
 #spotifyapp {
-  width: 350px;
+  width: 300px;
+}
+
+#easy {
+  font-size: 22px;
+  text-decoration: underline white;
 }
 
 @media screen and (max-width: 662px) {
@@ -144,5 +149,11 @@ body {
   }
   .sectionone h2 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .spotifyappimage {
+    display: none;
   }
 }
