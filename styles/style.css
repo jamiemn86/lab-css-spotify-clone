@@ -69,6 +69,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.icons {
+  margin-top: 150px;
+}
+
+#secondli {
+  margin-top: 12px;
 }
 
 @media screen and (max-width: 662px) {
