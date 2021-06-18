@@ -98,6 +98,31 @@ body {
   margin-top: 12px;
 }
 
+.sectionthree {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00b172;
+  height: 750px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.sectionthree ul {
+  list-style-type: none;
+}
+
+#spotifyiconwhite {
+  width: 150px;
+}
+
+#spotifyapp {
+  width: 350px;
+}
+
 @media screen and (max-width: 662px) {
   .navigationbar {
     display: flex;
